@@ -248,6 +248,7 @@ p.copyright{
         
         .subtitulo{
             font-size: 40px;
+            padding-bottom: 50px;
         }
         
         .bajar{
@@ -325,6 +326,11 @@ p.copyright{
             font-size: 60px;
         }
 
+        .promostitulo{
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+
         .posicionamiento{
             font-size: 15px;
         }
@@ -400,6 +406,7 @@ p.copyright{
     
     .subtitulo{
         font-size: 60px;
+        padding-bottom: 100px;
     }
     
     .bajar{
@@ -426,7 +433,7 @@ p.copyright{
     }
 
     .promostitulo{
-        font-size: 80px;
+        font-size: 30px;
     }
 
     ul.navbar1{
@@ -553,6 +560,7 @@ p.copyright{
     
     .subtitulo{
         font-size: 50px;
+        padding-bottom: 100px;
     }
     
     .bajar{
@@ -586,7 +594,7 @@ p.copyright{
     }
 
     .promostitulo{
-        font-size: 100px;
+        font-size: 40px;
     }
 
     .subtituloimagen{
@@ -697,15 +705,16 @@ p.copyright{
     }
     
     .titulo{
-        font-size: 100px;
+        font-size: 120px;
     }
     
     .subtitulo{
-        font-size: 45px;
+        font-size: 60px;
+        padding-bottom: 100px;
     }
     
     .bajar{
-        font-size: 50px;
+        font-size: 70px;
     } 
     
     ul.navbar1{
@@ -795,7 +804,8 @@ p.copyright{
     }
 
     .promostitulo{
-        font-size: 100px;
+        font-size: 50px;
+        padding-bottom: 60px;
     }
     
     footer{
@@ -884,15 +894,16 @@ p.copyright{
     }
     
     .titulo{
-        font-size: 100px;
+        font-size: 130px;
     }
     
     .subtitulo{
-        font-size: 40px;
+        font-size: 65px;
+        padding-bottom: 100px;
     }
     
     .bajar{
-        font-size: 60px;
+        font-size: 70px;
     } 
     
     ul.navbar1{
@@ -984,7 +995,8 @@ p.copyright{
     }
 
     .promostitulo{
-        font-size: 100px;
+        font-size: 70px;
+        padding-bottom: 200px;
     }
     
     footer{
@@ -1077,11 +1089,12 @@ p.copyright{
     }
     
     .subtitulo{
-        font-size: 100px;
+        font-size: 65px;
+        padding-bottom: 100px;
     }
     
     .bajar{
-        font-size: 100px;
+        font-size: 70px;
     } 
     
     ul.navbar1{
@@ -1168,6 +1181,7 @@ p.copyright{
 
     .promostitulo{
         font-size: 100px;
+        padding-bottom: 300px;
     }
     
     footer{
@@ -1256,11 +1270,12 @@ p.copyright{
     }
     
     .titulo{
-        font-size: 140px;
+        font-size: 160px;
     }
     
     .subtitulo{
-        font-size: 100px;
+        font-size: 80px;
+        padding-bottom: 250px;
     }
     
     .bajar{
