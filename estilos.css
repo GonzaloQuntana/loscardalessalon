@@ -238,8 +238,11 @@ p.copyright{
 @media only screen and (min-width:320px){
 
         .fondotitulo{
-            height: 820px;
+            height: 100vh;
             width: 100%;
+            background-image: url(imagenes/fondomobil.jpg);
+            background-size: auto;
+            background-attachment: fixed;
         }
         
         .titulo{
@@ -248,7 +251,7 @@ p.copyright{
         
         .subtitulo{
             font-size: 40px;
-            padding-bottom: 50px;
+            padding-bottom: 150px;
         }
         
         .bajar{
@@ -295,6 +298,11 @@ p.copyright{
             width: 300px;
         }
     
+        .ubicacion{
+            height: 200px;
+            width: 300px;
+        }
+
         footer{
             position: relative;
             height: 70px;
@@ -303,7 +311,7 @@ p.copyright{
         }
         
         footer i{
-            font-size: 25px;
+            font-size: 23px;
             letter-spacing: 8px;
             margin-top: 3px;
         }
@@ -311,7 +319,7 @@ p.copyright{
         p.copyright{
             position: absolute;
             width: 100%;
-            line-height: 50px;
+            line-height: 30px;
             font-size:20px;
             bottom:0;
         }
@@ -333,6 +341,12 @@ p.copyright{
 
         .posicionamiento{
             font-size: 15px;
+        }
+
+        .textocontacto{
+            color: #fcfcfcce;
+            font-size: 20px;
+            width: 100%;
         }
 
         .imgc1{
@@ -384,7 +398,7 @@ p.copyright{
             line-height: 15px;
             border-radius: 50%;
             box-shadow: 0 0 2px #333;
-            font-size: 30px;
+            font-size: 25px;
         }
 }
 
@@ -396,8 +410,11 @@ p.copyright{
     }
 
     .fondotitulo{
-        height: 820px;
+        height: 100vh;
         width: 100%;
+        background-image: url(imagenes/fondomobil.jpg);
+        background-size: auto;
+        background-attachment: fixed;
     }
     
     .titulo{
@@ -406,7 +423,7 @@ p.copyright{
     
     .subtitulo{
         font-size: 60px;
-        padding-bottom: 100px;
+        padding-bottom: 120px;
     }
     
     .bajar{
@@ -439,14 +456,14 @@ p.copyright{
     ul.navbar1{
         font-size: 0;
         width: 100%;
-        height: 60px;
+        height: 50px;
         top: 0;
         z-index: 1;
     }
     
     .navbar{
-        width: 17%;
-        font-size: 25px;
+        width: 19%;
+        font-size: 20px;
     }
 
     .subtituloimagen{
@@ -475,6 +492,11 @@ p.copyright{
         width: 500px;
     }
     
+    .ubicacion{
+        height: 350px;
+        width: 500px;
+    }
+
     footer{
         position: relative;
         height: 70px;
@@ -504,6 +526,11 @@ p.copyright{
         height: 400px;
         width: 100%;
         display: grid;
+    }
+
+    .textocontacto{
+        font-size: 20px;
+        width: 100%;
     }
 
     .imgc1{
@@ -545,6 +572,18 @@ p.copyright{
     grid-column: 3/5;
     grid-row: 3/4;
     }
+
+.subir{
+    height: 50px;
+    width: 50px;
+    border: 5px solid #141212fa;
+    bottom: 10px;
+    right: 10px;
+    line-height: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #333;
+    font-size: 35px;
+}
 }
 
 @media only screen and (min-width:768px){
@@ -552,19 +591,22 @@ p.copyright{
     .fondotitulo{
         height: 100vh;
         width: 100%;
+        background-image: url(imagenes/fondomobil.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .titulo{
-        font-size: 100px;
+        font-size: 120px;
     }
     
     .subtitulo{
-        font-size: 50px;
-        padding-bottom: 100px;
+        font-size: 60px;
+        padding-bottom: 120px;
     }
     
     .bajar{
-        font-size: 90px;
+        font-size: 80px;
     } 
     
     ul.navbar1{
@@ -598,15 +640,16 @@ p.copyright{
     }
 
     .subtituloimagen{
-        font-size: 90px;
+        font-size: 80px;
+        padding-bottom: 10px;
     }
     
     .textoimagen{
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .textoimagen a{
-        font-size: 50px;
+        font-size: 45px;
         border: 5px solid;
         border-radius: 15%;
         padding: 8px 10px;
@@ -624,6 +667,11 @@ p.copyright{
     }
     
     .imagen2{
+        height: 450px;
+        width: 600px;
+    }
+
+    .ubicacion{
         height: 450px;
         width: 600px;
     }
@@ -655,6 +703,11 @@ p.copyright{
         min-height: 400px;
         width: 100%;
         display: grid;
+    }
+
+    .textocontacto{
+        font-size: 20px;
+        width: 100%;
     }
 
     .imgc1{
@@ -696,12 +749,27 @@ p.copyright{
     grid-column: 3/5;
     grid-row: 3/4;
     }
+
+.subir{
+    height: 65px;
+    width: 65px;
+    border: 10px solid #141212fa;
+    bottom: 12px;
+    right: 12px;
+    line-height: 1px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #333;
+    font-size: 40px;
+}
 }
 
 @media only screen and (min-width:1080px){
     .fondotitulo{
+        height: 100vh;
         width: 100%;
-        height: 750px;
+        background-image: url(imagenes/fondo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .titulo{
@@ -710,32 +778,32 @@ p.copyright{
     
     .subtitulo{
         font-size: 60px;
-        padding-bottom: 100px;
+        padding-bottom: 60px;
     }
     
     .bajar{
-        font-size: 70px;
+        font-size: 60px;
     } 
     
     ul.navbar1{
         font-size: 0;
         width: 100%;
-        height: 65px;
+        height: 60px;
         top: 0;
         z-index: 1;
     }
     
     .navbar{
         width: 20%;
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .subtituloimagen{
-        font-size: 55px;
+        font-size: 60px;
     }
 
     .textoimagen{
-        font-size: 22px;
+        font-size: 30px;
         margin: 30px;
     }
 
@@ -784,6 +852,11 @@ p.copyright{
         width: 700px;
     }
     
+    .ubicacion{
+        height: 400px;
+        width: 700px;
+    }
+
     .galeria{
         height: 250px;
         width: 250px;
@@ -815,14 +888,14 @@ p.copyright{
     
     footer i{
         margin-top: 5px;
-        font-size: 40px;
+        font-size: 35px;
         letter-spacing: 15px;
     }
     
     p.copyright{
         width: 100%;
         line-height: 70px;
-        font-size:45px;
+        font-size:40px;
         bottom:0;
     }
     
@@ -844,6 +917,11 @@ p.copyright{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .textocontacto{
+        font-size: 20px;
+        width: 100%;
     }
 
     .imgc1{
@@ -885,12 +963,28 @@ p.copyright{
     grid-column: 3/5;
     grid-row: 3/4;
     }
+
+    .subir{
+        height: 62px;
+        width: 62px;
+        border: 10px solid #141212fa;
+        bottom: 12px;
+        right: 12px;
+        line-height: 1px;
+        border-radius: 50%;
+        box-shadow: 0 0 2px #333;
+        font-size: 37px;
+    }
 }
 
 @media only screen and (min-width:1440px){
+    
     .fondotitulo{
-        width: 100%;
         height: 100vh;
+        width: 100%;
+        background-image: url(imagenes/fondo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .titulo{
@@ -925,7 +1019,7 @@ p.copyright{
 
     .textoimagen{
         font-size: 30px;
-        margin: 44px;
+        margin: 5px;
     }
     
     .textoimagen a{
@@ -960,17 +1054,22 @@ p.copyright{
     }
     
     .imagen1{
-        height: 450px;
-        width: 700px;
+        height: 400px;
+        width: 650px;
         float: left;
     }
     
     .imagen2{
-        height: 450px;
-        width: 700px;
+        height: 400px;
+        width: 650px;
         float: right;
     }
     
+    .ubicacion{
+        height: 400px;
+        width: 650px;
+    }
+
     .ubicacion{
         float: right;
     }
@@ -1006,14 +1105,14 @@ p.copyright{
     
     footer i{
         margin-top: 5px;
-        font-size: 35px;
+        font-size: 32px;
         letter-spacing: 15px;
     }
     
     p.copyright{
         width: 100%;
         line-height: 40px;
-        font-size:40px;
+        font-size:36px;
         bottom:0;
     }
     
@@ -1035,6 +1134,11 @@ p.copyright{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .textocontacto{
+        font-size: 20px;
+        width: 100%;
     }
 
     .imgc1{
@@ -1076,12 +1180,27 @@ p.copyright{
     grid-column: 3/5;
     grid-row: 3/4;
     }
+
+.subir{
+    height: 62px;
+    width: 62px;
+    border: 10px solid #141212fa;
+    bottom: 12px;
+    right: 12px;
+    line-height: 1px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #333;
+    font-size: 37px;
+}
 }
 
 @media only screen and (min-width:1700px){
     .fondotitulo{
-        width: 100%;
         height: 100vh;
+        width: 100%;
+        background-image: url(imagenes/fondo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .titulo{
@@ -1090,7 +1209,7 @@ p.copyright{
     
     .subtitulo{
         font-size: 65px;
-        padding-bottom: 100px;
+        padding-bottom: 80px;
     }
     
     .bajar{
@@ -1116,8 +1235,10 @@ p.copyright{
     
     
     .textoimagen{
-        font-size: 35px;
-        margin: 52px;
+        font-size: 32px;
+        margin-right: 1px;
+        margin-left: 60px;
+        margin-bottom: 50px;
     }
     
     .textoimagen a{
@@ -1164,6 +1285,8 @@ p.copyright{
     }
     
     .ubicacion{
+        height: 450px;
+        width: 700px;
         float: right;
     }
     
@@ -1185,20 +1308,20 @@ p.copyright{
     }
     
     footer{
-        height: 120px;
+        height: 100px;
         width: 100%;
     }
     
     footer i{
         margin-top: 5px;
-        font-size: 40px;
+        font-size: 37px;
         letter-spacing: 15px;
     }
     
     p.copyright{
         width: 100%;
-        line-height: 70px;
-        font-size:45px;
+        line-height: 50px;
+        font-size:40px;
         bottom:0;
     }
     
@@ -1220,6 +1343,11 @@ p.copyright{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .textocontacto{
+        font-size: 20px;
+        width: 100%;
     }
 
     .imgc1{
@@ -1265,8 +1393,11 @@ p.copyright{
 
 @media only screen and (min-width:1900px){
     .fondotitulo{
-        width: 100%;
         height: 100vh;
+        width: 100%;
+        background-image: url(imagenes/fondo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .titulo{
@@ -1404,6 +1535,11 @@ p.copyright{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .textocontacto{
+        font-size: 20px;
+        width: 100%;
     }
 
     .imgc1{
