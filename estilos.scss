@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
+$color1: #141212fa;
+$color2: #110001;
+$color3: #fac22a;
 
 *{
     margin: 0;
@@ -11,7 +14,7 @@ html{
 }
 
 body{
-    background-color: #110001;
+    background-color: $color2;
     height: 100vh;
     width: 100%;
 }
@@ -34,7 +37,7 @@ body{
 }
 
 .bajar{
-    color: #fac22a;
+    color: $color3;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -42,7 +45,7 @@ body{
 } 
 
 .subtituloimagen{
-    color: #fac22a;
+    color: $color3;
     font-style: italic;
 }
 
@@ -55,7 +58,7 @@ body{
     color: #110001;
     font-size: 50px;
     border: 5px solid;
-    background-color: #fac22a;
+    background-color: $color3;
     border-radius: 15%;
     padding: 8px 10px;
 }
@@ -89,21 +92,21 @@ ul.navbar1{
     position: fixed;
     top: 0;
     z-index: 1;
-    color: #141212fa;
+    color: $color1;
 }
 
 .navbar{
     display: inline-block;
     width: 20%;
     font-size: 55px;
-    color: #141212fa;
+    color: $color1;
     text-align: center;
     text-decoration: none;
 }
 
 a{ 
     text-decoration: none;
-    color: #141212fa;  
+    color: $color1;  
 }
 
 a:hover{ 
@@ -115,7 +118,7 @@ a:hover{
     width: 250px;
     border: 10px;
     border-style: groove;
-    border-color: #fac22a;
+    border-color: $color3;
     margin: 10px;
 }
 
@@ -150,9 +153,9 @@ a:hover{
 
 footer{
     position: relative;
-    background-color: #fac22a;
+    background-color: $color3;
     text-align: center;
-    color: #141212fa;
+    color: $color1;
 }
 
 footer i{
@@ -161,15 +164,15 @@ footer i{
 
 p.copyright{
     position: absolute;
-    color: #141212fa;
+    color: $color1;
 }
 
 .subir{
     height: 40px;
     width: 40px;
-    background-color: #fac22a;
-    border: 5px solid #141212fa;
-    color: #141212fa;
+    background-color: $color3;
+    border: 5px solid $color1;
+    color: $color1;
     position: fixed;
     bottom: 20px;
     right: 20px;
